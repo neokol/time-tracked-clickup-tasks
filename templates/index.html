@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Tasks</title>
+    <link href="{{url_for('static', filename='css/style.css')}}" type="text/css" rel="stylesheet" />
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <table>
+        <thead>
+            <tr>
+                <!-- Header -->
+                {% for column in header %}
+                <th>{{ column }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data Rows -->
+            {% for row in data_rows %}
+            <tr>
+                {% for cell in row %}
+                <td>{{ cell }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <section class="buttons-sec">
+        <form method="POST" action="/download" class="login-form">
+            <button type="submit" value="Download CSV">Download CSV</button>
+        </form>
+        <div class="home-button">
+            <a href="/" class="button">Search</a>
+        </div>
+    </section>
+
+</body>
+
+</html>

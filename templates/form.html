@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <link href="{{url_for('static', filename='css/style.css')}}" type="text/css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="login-card">
+        <h2>Billings</h2>
+        <form method="POST" action="/" class="login-form">
+            <input type="text" id="list_id" name="list_id" placeholder="List ID"><br>
+            <input type="number" id="year" name="year" placeholder="Year"><br>
+            <input type="number" id="month" name="month" placeholder="Month"><br>
+            <input type="number" id="day" name="day" placeholder="Day"><br>
+            <button type="submit" value="Submit">Submit</button>
+        </form>
+        <p>{{error_message}}</p>
+    </div>
+</body>
+
+</html>

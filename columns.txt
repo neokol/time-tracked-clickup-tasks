@@ -1,0 +1,11 @@
+ID;Name;Invoice Description;Status;Date Created;Date Closed;Time Logged;Time in hours
+861mu4wq8;Intercompany Error: nvalid value [DocumentLines.BaseLine];Null;Closed;2023-05-17;2023-05-23;7.5;7h 30m
+861mtuv94;Test Service Layer on Thor2;Null;Closed;2023-05-15;2023-05-15;2.0;2h 0m
+861mtppup;Παραγγελίες 626 & 627 που δεν έχουν εισαχθεί στο σύστημα;Null;Closed;2023-05-15;2023-05-15;0.5;0h 30m
+861mt87yf;AS SL Delay/Timeouts;Trying to fix  SL delay;Closed;2023-05-11;2023-05-16;0.5;0h 30m
+861mt85gn;Προσθήκη της λειτουργικότητας ignore στις γραμμές και το head του παραστατικού;Null;Closed;2023-05-11;2023-05-11;1.0;1h 0m
+861mqjkrz;Περίπτωση extra έκπτωσης Β2Β;Null;Open;2023-04-28;null;0.5;0h 30m
+861mpu42d;conectadora: Check nullable commercial policies at product requests;Null;Closed;2023-04-24;2023-05-02;0.0;0h 0m
+861mgtt4y;consumer: Fix bug when creating SBO BPs with empty body;Null;today;2023-03-15;null;0.0;0h 0m
+861menpg3;[Legacy] Product on eNteCore;Null;in progress;2023-03-03;null;3.75;3h 45m
+338zbwe;Check if GET contacts/orders get only specified channel entities;Yλοποίηση ώστε να έρχονται μόνο παραγγελίες και contacts για κάθε κανάλι (Β2Β & Mantis);Closed;2022-12-14;2023-05-16;0.0;0h 0m
