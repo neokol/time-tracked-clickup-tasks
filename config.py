@@ -1,3 +1,3 @@
 import os
-# list = "186306099"
+# Enter the api token of click up API
 api_token = os.environ['API_TOKEN']
